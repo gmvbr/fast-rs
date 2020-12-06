@@ -1,0 +1,42 @@
+{
+  "name": "@gmvbr/fast-rs-app",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "env-schema": "^2.0.1",
+    "fastify": "^3.9.1",
+    "fastify-auth": "^1.0.1",
+    "fastify-sensible": "^3.0.1"
+  },
+  "devDependencies": {
+    "fastify-cors": "^5.0.0",
+    "fastify-csrf": "^2.0.0",
+    "fastify-helmet": "^5.0.3",
+    "fastify-jwt": "^2.1.3",
+    "helmet": "^4.2.0",
+    "standard": "^16.0.3"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "standard --fix"
+  },
+  "keywords": [],
+  "author": "gmvbr",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gmvbr/fast-rs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gmvbr/fast-rs/issues"
+  },
+  "homepage": "https://github.com/gmvbr/fast-rs#readme"
+}
