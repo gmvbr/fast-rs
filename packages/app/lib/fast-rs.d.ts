@@ -30,28 +30,28 @@ declare class FastRS<Config> {
      * 
      * @param options FastifyCorsOptions
      */
-    addSecurityCors<Config>(options: FastifyCorsOptions): FastRS<Config>;
+    addSecurityCors<Config>(options?: FastifyCorsOptions): FastRS<Config>;
 
     /**
      * Load plugin https://github.com/fastify/fastify-jwt
      * 
      * @param options FastifyHelmetOptions
      */
-    addSecurityJWT<Config>(options: FastifyJWTOptions): FastRS<Config>;
+    addSecurityJWT<Config>(options?: FastifyJWTOptions): FastRS<Config>;
 
     /**
      * Load plugin https://github.com/fastify/fastify-helmet
      * 
      * @param options FastifyHelmetOptions
      */
-    addSecurityHelmet<Config>(options: FastifyHelmetOptions): FastRS<Config>;
+    addSecurityHelmet<Config>(options?: FastifyHelmetOptions): FastRS<Config>;
 
     /**
      * Load plugin https://github.com/fastify/fastify-csrf
      * 
      * @param options FastifyCsrfOptions
      */
-    addSecurityCsrf<Config>(options: FastifyCsrfOptions): FastRS<Config>;
+    addSecurityCsrf<Config>(options?: FastifyCsrfOptions): FastRS<Config>;
 
     /**
      * Start server
